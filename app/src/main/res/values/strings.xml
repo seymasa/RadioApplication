@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RadyoFirmaRehberim</string>
+    <string name="title_favori">Favoriler</string>
+    <string name="title_tur">Türler</string>
+    <string name="title_yerel">Yerel</string>
+    <string name="title_ulusal">Ulusal</string>
+    <string name="title_radyo">Radyo</string>
+    <string name="title_tv">TV</string>
+    <string name="title_rehber">Rehber</string>
+</resources>

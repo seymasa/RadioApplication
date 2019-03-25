@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_favori"
+        android:icon="@drawable/favori"
+        android:title="@string/title_favori" />
+
+    <item
+        android:id="@+id/navigation_tur"
+        android:icon="@drawable/tur"
+        android:title="@string/title_tur" />
+
+    <item
+        android:id="@+id/navigation_yerel"
+        android:icon="@drawable/yerel"
+        android:title="@string/title_yerel" />
+
+    <item
+        android:id="@+id/navigatio_ulusal"
+        android:icon="@drawable/ulusal"
+        android:title="@string/title_ulusal" />
+
+
+</menu>
