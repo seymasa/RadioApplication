@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
             switch (item.getItemId()) {
                 case R.id.navigation_favori: // favorilere tıklarsam içerikte neler olacak onu belirliyoruz
                     mTextMessage.setText(R.string.title_favori);
+
                     return true;
                 case R.id.navigation_tur:// tür e tıklarsam içerikte neler olacak onu belirliyoruz
                     mTextMessage.setText(R.string.title_tur);
@@ -44,9 +45,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mTextMessage = (TextView) findViewById(R.id.message);
+        mTextMessage = findViewById(R.id.message);
 
-        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
+        BottomNavigationView navigation = findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 ///////////////////////////////////////////////////////////////////////////////////////////////
         recyclerView = findViewById(R.id.recyclerView);

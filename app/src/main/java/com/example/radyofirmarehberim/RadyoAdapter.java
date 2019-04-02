@@ -59,14 +59,14 @@ public class RadyoAdapter extends RecyclerView.Adapter<RadyoAdapter.MyViewHolder
             this.radyoName.setText(selectedRadyo.getRadyoName());
             this.radyoImage.setImageResource(selectedRadyo.getImageID());
             this.likedImage.setImageResource(R.drawable.unliked); // veri tabanından alınması daha mantıklı her açtıgımda siyah gelmez daha önce ne sectiysem o gelir hiç değilse.
-            like = false;
+            like = false; // veritabanındaki degeri ne ise ilk değer olarak o atanmış olacak..
         }
 
         @Override
         public void onClick(View v) {
             if ( like == false)
             {
-                likedImage.setImageResource(R.drawable.liked);
+                likedImage.setImageResource(R.drawable.liked); // veri tabanında favorilere eklenecek.
                 like = true;
             }
             else if (like == true){
